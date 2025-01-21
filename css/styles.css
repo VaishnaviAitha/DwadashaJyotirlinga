@@ -1,0 +1,19 @@
+.name_place{
+     font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+.legend{
+    font-size: larger;
+    font-family:'Times New Roman', Times, serif;
+}
+#iframe-container{
+    width: 1000px;
+    height: 1000px;
+    overflow: hidden;
+}
+#iframr-content{
+    width: 1000px;
+    height: 700px;
+    transform: scale(0.5) translateY(-750px) translateX(-200px);
+    transform-origin: 10  0;
+}

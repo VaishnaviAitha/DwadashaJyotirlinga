@@ -1,0 +1,57 @@
+.navbar-nav .nav-link{
+    padding: 0.5rem 0.5 rem;
+    font-size: 10px;
+  }
+  .pa {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #333;
+width: 100%;
+}
+
+
+.pa{
+display: block;
+color: #EBCF89;
+text-align: center;
+padding: 12px 12px;
+text-decoration: none;
+font-size: 30px;
+font-family: "Ovo", Lora;
+text-transform: uppercase;
+animation: fadeIn 1s ease forwards;
+}
+
+.pa:hover {
+background-color: #68656F;
+}
+p{
+    display: inline-block;
+    animation: fadeIn 1s ease forwards;
+    font-size: 30px;
+    color: #EBCF89;
+    padding: 5px ;
+    background-color: #333;
+    width: 90%;
+    font-family: "Ovo", Lora;
+text-transform: uppercase;
+    
+   }
+   .v{
+    text-align: center;
+   }
+nav.navbar.navbar-dark{
+background-color: #68656F;
+}
+@keyframes fadeIn{
+    0%{
+        transform: translateY(-100%);
+        opacity: 0;
+      }    
+      100%{
+        transform: translateY(0);
+        opacity: 1;
+      }
+}
